@@ -6,5 +6,5 @@ end
 
 <%= form_with url: "/posts", method: :post, local: true do |form| %>
   <%= form.text_field :content %>
-  <%= form.submit '投稿' %>
+  <%= form.submit '投稿する' %>
 <% end %>
